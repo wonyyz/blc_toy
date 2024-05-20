@@ -1,5 +1,12 @@
+import Header from "../components/common/Header";
+
 const RegisterPage = () => {
-  return <div>회원가입</div>;
+  return (
+    <>
+      <Header />
+      <div>회원가입</div>;
+    </>
+  );
 };
 
 export default RegisterPage;

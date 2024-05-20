@@ -1,13 +1,13 @@
 import Header from "../components/common/Header";
 import React from "react";
 
-const Chat = () => {
+const Rec = () => {
   return (
     <>
       <Header />
-      <div>채팅</div>
+      <div>추천</div>
     </>
   );
 };
 
-export default Chat;
+export default Rec;
